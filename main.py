@@ -1,15 +1,15 @@
 import asyncio
 from pytgcalls import idle
-from driver.veez import call_py, bot
+from driver.Alice Zuberg import call_py, bot
 
 async def mulai_bot():
-    print("[VEEZ]: STARTING BOT CLIENT")
+    print("[Alice Zuberg]: STARTING BOT CLIENT")
     await bot.start()
-    print("[VEEZ]: STARTING PYTGCALLS CLIENT")
+    print("[Alice Zuberg]: STARTING PYTGCALLS CLIENT")
     await call_py.start()
     await idle()
     await pidle()
-    print("[VEEZ]: STOPPING BOT & USERBOT")
+    print("[Alice Zuberg]: STOPPING BOT & USERBOT")
     await bot.stop()
 
 loop = asyncio.get_event_loop()
