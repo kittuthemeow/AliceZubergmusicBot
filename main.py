@@ -2,7 +2,7 @@ import asyncio
 from pytgcalls import idle
 from driver.alicezubergmusicrobot import call_py, bot
 
-async def mulai_bot():
+async def start_bot():
     print("[alicezubergmusicrobot]: STARTING BOT CLIENT")
     await bot.start()
     print("[alicezubergmusicrobot]: STARTING PYTGCALLS CLIENT")
@@ -13,4 +13,4 @@ async def mulai_bot():
     await bot.stop()
 
 loop = asyncio.get_event_loop()
-loop.run_until_complete(mulai_bot())
+loop.run_until_complete(start_bot())
